@@ -22,6 +22,7 @@
 
 .f2-container{
     display: flex;
+    height: 100%;
     flex-direction: column;
 }
 
@@ -58,20 +59,7 @@
     #d2{
         height: 60vh;
     }
-    #f2-d1{
-        height: 33.33%;
-       
-        
-    }
-    
-    #f2-form{
-        height: 33.33%;
-       
-    }
-    
-    #f2-d3{
-        height: 33.33%;
-    }
+
 }
 
 @media(min-width:481px) and (max-width: 800px){
@@ -85,18 +73,5 @@
     #d2{
         height: 60vh;
     }
-    #f2-d1{
-        height: 33.33%;
-       
-        
-    }
-    
-    #f2-form{
-        height: 33.33%;
-        
-    }
-    
-    #f2-d3{
-        height: 33.33%;
-    }
+
 }
